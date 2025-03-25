@@ -1,0 +1,19 @@
+basicamente, um sistema que regula um estacionamento.
+
+Requisitos Funcionais:
+RF 001 - Deverá ler a placa do veículo que se encontra parado na guarita de entrada.
+RF 002 - Deverá contar o tempo decorrido após o carro entrar no estacionamento.
+RF 003 - Deverá ter um sistema de cobrança na guarita de saída.
+RF 004 - No sistema de saída, deve permitir escolher entre pagar no Crédito, Débito ou Pix.
+RF 005 - No sistema de saída, deve permitir o cliente colocar ou não seu CPF na nota.
+RF 006 - No sistema de saída, deverá validar o CPF.
+RF 007 - Deverá permitir entrada e saída gratuita, para portadores de Voucher.
+RF 008 - Deverá contar o número de vagas restantes disponíveis.
+RF 009 - Caso não tenha mais vagas disponíveis, não permitir a entrada.
+
+
+Requisitos do Programa:
+
+> Criar função que gere uma placa aleatória para ser usada no lugar do leitor na guarita.
+> Criar função para validar números de CPF.
+> Criar função para validar o Voucher.
